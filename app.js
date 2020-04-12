@@ -53,7 +53,7 @@ function googleAnalyticsMiddleware(data) {
 }
 
 var unblockerConfig = {
-    prefix: '/weeb/',
+    prefix: '/blog/',
     responseMiddleware: [
         googleAnalyticsMiddleware
     ]
